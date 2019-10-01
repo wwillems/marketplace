@@ -13,5 +13,10 @@ contract('Marketplace', (accounts) => {
 			const address = await marketplace.address
 			assert.notEqual(address, 0x0)
 		})
+
+		it('has the proper name', async() => {
+			const name = await marketplace.name()
+			assert.equal(name, 'Marketplace')
+		})
 	})
 })
