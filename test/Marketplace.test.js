@@ -91,3 +91,5 @@ contract('Marketplace', ([deployer, seller, buyer]) => {
 		})
 	})
 })
+
+Er ging iets mis bij het verwerken van de betaling. Neem contact op met Villatent als het probleem zich blijft voordoen.
